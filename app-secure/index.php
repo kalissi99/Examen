@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($user === $valid_user && password_verify($pass, $valid_pass)) {
         $message = "Connexion réussie ✅";
     } else {
-        $message = "Identifiants incorrects ❌";
+        $message = "Identifiants incorrects ";
     }
 }
 ?>
